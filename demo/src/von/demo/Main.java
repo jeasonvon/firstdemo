@@ -1,5 +1,8 @@
 package von.demo;
 
+import von.demo.entity.IBehavior;
+import von.demo.entity.Pig;
+
 /**
  * 这是一个简单点的demo，上传到git
  * 
@@ -12,10 +15,8 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		print();
-	}
-
-	public static void print() {
-		System.out.println("hello git !");
+		IBehavior pig = new Pig();
+		System.out.println(pig.say());
+		System.out.println(pig.move());
 	}
 }
