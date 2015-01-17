@@ -19,6 +19,7 @@ public class Main {
 		IBehavior pig = new Pig();
 		System.out.println(pig.say());
 		System.out.println(pig.move());
+		System.out.println("ok");
 		System.out.println(StringUtils.splitStr("1,2,3,4", ","));
 	}
 }
