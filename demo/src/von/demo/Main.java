@@ -2,6 +2,7 @@ package von.demo;
 
 import von.demo.entity.IBehavior;
 import von.demo.entity.Pig;
+import von.demo.utils.StringUtils;
 
 /**
  * 这是一个简单点的demo，上传到git
@@ -18,5 +19,6 @@ public class Main {
 		IBehavior pig = new Pig();
 		System.out.println(pig.say());
 		System.out.println(pig.move());
+		System.out.println(StringUtils.splitStr("1,2,3,4", ","));
 	}
 }
