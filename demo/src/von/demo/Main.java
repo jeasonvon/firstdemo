@@ -21,6 +21,6 @@ public class Main {
 		System.out.println(pig.move());
 		System.out.println("ok");
 		System.out.println(StringUtils.splitStr("1,2,3,4", ","));
-		System.out.println("hello git");
+		System.out.println("hello mon");
 	}
 }
